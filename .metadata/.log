@@ -140,3 +140,18 @@ Binding(CTRL+SHIFT+C,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-27 22:23:10.675
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-27 22:23:10.688
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-27 22:23:10.696
+!MESSAGE buffering callback sts4.classpath.sNXuCbkP persona false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-27 22:23:10.697
+!MESSAGE executing callback sts4.classpath.sNXuCbkP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-27 22:23:10.709
+!MESSAGE executing callback sts4.classpath.sNXuCbkP SUCCESS [done]
