@@ -75,6 +75,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\finan\meus-projetos\persona"/>
 			<item value="C:\Users\finan\Downloads\persona\persona"/>
 		</list>
 		<list key="projectNameTemplate">
