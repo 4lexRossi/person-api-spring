@@ -1,4 +1,4 @@
-package com.alos.persona.personapi.services;
+package com.alos.persona.services;
 
 import lombok.AllArgsConstructor;
 import com.alos.persona.dto.mapper.PersonMapper;
