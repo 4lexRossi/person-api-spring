@@ -41,26 +41,27 @@ public class PersonService {
                 .collect(Collectors.toList());
     }
 
-    public MessageResponseDTO update(Long id, PersonDTO personDTO) throws PersonNotFoundException {
+    public MessageResponseDTO updateByID(Long id, PersonDTO personDTO) throws PersonNotFoundException {
         verifyIfExists(id);
 
-        Person updatedPerson = personMapper.toModel(personDTO);
-        Person savedPerson = personRepository.save(updatedPerson);
+        Person personToUpdate = personMapper.toModel(personDTO);
+        Person updatedPerson = personRepository.save(personToUpdate);
 
-        MessageResponseDTO messageResponse = createMessageResponse("Person successfully updated with ID ", savedPerson.getId());
+        MessageResponseDTO messageResponse = createMessageResponse("Person successfully updated with ID ", updatedPerson.getId());
 
         return messageResponse;
     }
 
-    public void delete(Long id) throws PersonNotFoundException {
+    public void deleteById(Long id) throws PersonNotFoundException {
         verifyIfExists(id);
 
         personRepository.deleteById(id);
     }
 
-    private MessageResponseDTO createMessageResponse(String s, Long id2) {
-        return MessageResponseDTO.builder()
-                .message(s + id2)
+    private MessageResponseDTO createMessageResponse(String message, Long id) {
+        return MessageResponseDTO
+                .builder()
+                .message(message + id)
                 .build();
     }
 
