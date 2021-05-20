@@ -10,7 +10,7 @@ First Compile with the command
 mvn clean install
 ```
 
-then run the application
+Run the application
 ```
 mvn spring-boot:run
 ```
