@@ -1,16 +1,16 @@
 # Person Api Spring
 
-clone the project with this command
+Clone the project:
 ```
 git clone https://github.com/4lexRossi/person-api-spring.git
 ```
 
-First Compile with the command
+Compile it:
 ```
 mvn clean install
 ```
 
-Run the application
+Run the application:
 ```
 mvn spring-boot:run
 ```
