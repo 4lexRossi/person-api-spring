@@ -1,4 +1,4 @@
-# person-api-spring
+# Person Api Spring
 
 clone the project with this command
 ```
